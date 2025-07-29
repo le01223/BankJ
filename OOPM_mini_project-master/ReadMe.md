@@ -18,9 +18,3 @@
 ---------------------------------------
   * Run the file `Main_Program.java` to start the application and create a new account and then login.
   * The file is located in `E-Banking\src\` folder.
-
-# Collaborators
-----------------------------------------
-    * Rashmil Panchani (Complete Backend)
-    * Priyal Patel (FrontEnd)
-    * Richa Sheth (FrontEnd)
