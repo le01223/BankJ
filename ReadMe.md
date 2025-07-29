@@ -1,20 +1,51 @@
-# BankJ Project
----------------------------------------
-  * This project works best if run on netbeans
-  * Basic idea of the project was to create a client side version to banking which performs simple deposit and withdrawal operations.
+# BankJ - Банковская система на Java
 
-# Features
---------------------------------------
-  * Database implementation using SQLite and JDBC.
-  * GUI made using Java Swing and some AWT components.
+![Java](https://img.shields.io/badge/Java-11%2B-blue)
+![Swing](https://img.shields.io/badge/GUI-Swing%2FAWT-orange)
+![SQLite](https://img.shields.io/badge/Database-SQLite-green)
 
-# Project Structure
---------------------------------------
-  * `BankJ\src\GUI\` Folder contains the gui files the base file being `USER_IDENTIFICATION.java`.
-  * `BankJ\src\Model\` Folder contains the Account model for the program and the Database implementation files.
-  * `BankJ\src\Model\DatabseFile.java` and `BankJ\src\Model\Query.java` File together work as connectivity to the Database.
+Учебный проект банковской системы с графическим интерфейсом и базой данных.
 
-# How to Run the program
----------------------------------------
-  * Run the file `Main_Program.java` to start the application and create a new account and then login.
-  * The file is located in `BankJ\src\` folder.
+## 📋 Описание
+Клиентское приложение для имитации банковских операций:
+- Открытие счета
+- Внесение/снятие средств
+- Просмотр баланса
+
+## 🛠 Технологии
+- **Язык:** Java 11+
+- **Интерфейс:** Swing/AWT
+- **База данных:** SQLite + JDBC
+
+## 📂 Структура проекта
+```
+src/
+│
+├── GUI/ # Графический интерфейс
+│ ├── LoginWindow.java # Окно авторизации
+│ ├── MainMenu.java # Главное меню
+│ ├── DepositWindow.java # Окно внесения средств
+│ └── WithdrawWindow.java # Окно снятия средств
+│
+├── Model/ # Бизнес-логика
+│ ├── Account.java # Модель банковского счета
+│ ├── BankOperations.java # Операции с балансом
+│ ├── Database/
+│ │ ├── DatabaseConnector.java # Подключение к БД
+│ │ └── SQLiteManager.java # Управление SQLite
+│ └── Queries/
+│ ├── UserQueries.java # Запросы пользователей
+│ └── TransactionQueries.java # Запросы операций
+│
+├── Utils/ # Вспомогательные классы
+│ ├── PasswordHasher.java # Хеширование паролей
+│ └── InputValidator.java # Валидация ввода
+│
+└── Main.java # Точка входа в приложение
+```
+
+## 🚀 Запуск
+1. Установите [Java JDK 11+](https://adoptium.net/)
+2. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/ваш-логин/BankJ.git
