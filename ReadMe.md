@@ -10,17 +10,11 @@
 
 # Project Structure
 --------------------------------------
-  * `E-Banking\src\GUI\` Folder contains the gui files the base file being `USER_IDENTIFICATION.java`.
-  * `E-Banking\src\Model\` Folder contains the Account model for the program and the Database implementation files.
-  * `E-Banking\src\Model\DatabseFile.java` and `E-Banking\src\Model\Query.java` File together work as connectivity to the Database.
+  * `BankJ\src\GUI\` Folder contains the gui files the base file being `USER_IDENTIFICATION.java`.
+  * `BankJ\src\Model\` Folder contains the Account model for the program and the Database implementation files.
+  * `BankJ\src\Model\DatabseFile.java` and `BankJ\src\Model\Query.java` File together work as connectivity to the Database.
 
 # How to Run the program
 ---------------------------------------
   * Run the file `Main_Program.java` to start the application and create a new account and then login.
-  * The file is located in `E-Banking\src\` folder.
-
-# Collaborators
-----------------------------------------
-    * Rashmil Panchani (Complete Backend)
-    * Priyal Patel (FrontEnd)
-    * Richa Sheth (FrontEnd)
+  * The file is located in `BankJ\src\` folder.
