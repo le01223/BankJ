@@ -1,4 +1,4 @@
-# E-Banking Project(for college miniproject)
+# BankJ Project
 ---------------------------------------
   * This project works best if run on netbeans
   * Basic idea of the project was to create a client side version to banking which performs simple deposit and withdrawal operations.
